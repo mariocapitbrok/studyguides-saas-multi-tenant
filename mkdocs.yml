@@ -1,0 +1,71 @@
+site_name: SaaS + Multi-tenant
+site_description: Study Guide
+site_author: mariocapitbrok
+
+docs_dir: docs
+
+repo_url: https://github.com/mariocapitbrok/studyguides-saas-multi-tenant
+repo_name: mariocapitbrok/studyguides-saas-multi-tenant
+edit_uri: edit/main/docs/
+
+copyright: '© 2025 mariocapitbrok. All rights reserved.<br>Powered by <a href="https://capitbrok.com" target="_blank" rel="noopener">Capitbrok</a>.'
+
+theme:
+  name: material
+  font: false
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - navigation.sections
+    - navigation.indexes
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Introduction: saas_multi_tenant_intro.md
+  - Setup and Foundations: saas_multi_tenant_setup_installation.md
+  - Core Concepts: saas_multi_tenant_core_concepts.md
+  - Best Practices: saas_multi_tenant_best_practices.md
+  - Troubleshooting: saas_multi_tenant_troubleshooting.md
+  - Additional Resources: saas_multi_tenant_additional_resources.md
+  - Concepts Cheat Sheet: saas_multi_tenant_concepts_cheat_sheet.md
+  - Syntax Cheat Sheet: saas_multi_tenant_syntax_cheat_sheet.md

@@ -1,0 +1,14 @@
+name: "SaaS + Multi-tenant"
+slug: "saas-multi-tenant"
+owner: "mariocapitbrok"
+status: "active"
+site_title: "SaaS + Multi-tenant Study Guide"
+doc_standards_version: 1
+publish_target: "none"
+tags:
+  - "saas-multi-tenant"
+  - "saas"
+  - "multi-tenant"
+  - "architecture"
+summary: "Study guide for designing, operating, and scaling SaaS products with multi-tenant architectures."
+repo_url: "https://github.com/mariocapitbrok/studyguides-saas-multi-tenant"
