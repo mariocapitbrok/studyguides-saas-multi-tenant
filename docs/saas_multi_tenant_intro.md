@@ -17,7 +17,7 @@ The exam-level challenge is not memorizing definitions. It is being able to answ
 
 ### SaaS
 
-Software delivered as a managed service with centralized operations, continuous updates, and recurring subscription or usage-based pricing.
+"Software as a Service". Software delivered as a managed service with centralized operations, continuous updates, and recurring subscription or usage-based pricing.
 
 ### Tenant
 
